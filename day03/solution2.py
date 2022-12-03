@@ -10,6 +10,7 @@ def returnBadgetotal(sacks: str) -> int:
                 else:
                     total += (ord(c) - 38)
                 break
+
         sackIndex += 3
 
     return total
